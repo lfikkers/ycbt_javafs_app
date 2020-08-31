@@ -1,0 +1,29 @@
+h2 {
+	padding: 10px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#pets {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#pets th {
+	border: 1px solid lightgray;
+	background-color: lightcoral;
+	color: white;
+}
+
+#pets tr:nth-child(even) {
+	background-color: floralwhite;
+}
+
+#pets tr, td {
+	border: 1px solid lightgray;
+}
+
+#pets th, td {
+	padding: 8px;
+	text-align: left;
+}
